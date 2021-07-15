@@ -496,7 +496,6 @@ body {
   border-radius: 4px;
   color: var(--secondary-color);
   outline: 0;
-  transition: border-color 250ms var(--timing-function);
 }
 .user-email-input::placeholder {
   font-size: 16px;
@@ -504,10 +503,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.user-email-input:hover,
-.user-email-input:focus {
-  border-color: #2196f3;
-}
+
 .form-button {
   display: flex;
   width: 200px;
