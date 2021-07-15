@@ -433,7 +433,7 @@
      <p class="Subscribe">Подпишитесь на рассылку</p>
      <label class="footer-form-label">
         <input type="email" name="user-email" id="subscribe" placeholder="E-mail" class="user-email-input">
-      <button class="form-button"> Подписаться
+      <button type="submit" class="form-button"> Подписаться
         <svg class="footer-form-icon">
           <use href="./images/icons.svg#icon-send">
     
@@ -460,7 +460,8 @@
           Имя
          </label>
          <div class="form-btn-input">
-          <input type="text" class="modal-btn-input" id="user-name">
+          <input type="text" class="modal-btn-input" id="user-name" name="user-person" required minlength="2"
+          pattern="[a-zA-Zа-яёА-ЯЁ]+"  title="Имя должно содержать символы кирилицы или латиницы">
           <svg class="modal-form-icon">
             <use href="./images/icons.svg#icon-person"></use>
           </svg>
@@ -470,7 +471,7 @@
           Телефон
         </label>
         <div class="form-btn-input">
-          <input type="tel" class="modal-btn-input" id="user-phone">
+          <input type="tel" class="modal-btn-input" id="user-phone" name="user-number" required  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-000-00-0" >
           <svg class="modal-form-icon">
             <use href="./images/icons.svg#icon-phone"></use>
           </svg>
@@ -480,7 +481,7 @@
           Почта
         </label>
         <div class="form-btn-input">
-          <input type="email" class="modal-btn-input" id="user-email">
+          <input type="email" class="modal-btn-input" id="user-email" name="user-e-mail" required >
           <svg class="modal-form-icon"> 
             <use href="./images/icons.svg#icon-email"></use>
           </svg>
@@ -491,7 +492,7 @@
         <textarea name="" id="" placeholder="Введите текст" class="modal-form-textarea"></textarea>
         
         <input type="checkbox" name="" id="modal-form-checkbox" class="agree-input visually-hidden">
-        <label for="modal-form-checkbox" class="modal-btn-form-checkbox">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
+        <label for="modal-form-checkbox" class="modal-btn-form-checkbox">Соглашаюсь с рассылкой и принимаю <a href="#" class="form-link">&nbsp;Условия договора</a></label>
            
       <div class="modal-form-button">
         <button type="submit" class="modal-button">Отправить</button>
