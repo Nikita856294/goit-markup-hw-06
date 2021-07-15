@@ -773,6 +773,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: 2px solid #2196f3;
+  border-radius: 2px;
 }
 .modal-btn-form-checkbox:before {
   display: block;
