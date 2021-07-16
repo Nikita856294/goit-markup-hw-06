@@ -178,10 +178,7 @@
           
           <li class="section-item our-team-content list">
             <img
-              src="./images/img.jpg"
-              alt=" фото Игоря Демьяненко"
-              width="270"
-              height="260"
+              src="./images/img-team.jpg" alt=" фото Игоря Демьяненко" width="270" height="260"
             />
             <div class="our-team-box">
             <h3 class="section-title-list ">Игорь Демьяненко</h3>
@@ -220,11 +217,7 @@
           </li>
           <li class="section-item our-team-content list">
             <img
-              src="./images/img 2.jpg"
-              alt=" фото Ольги Репиной"
-              width="270"
-              height="260"
-            />
+              src="./images/img-team2.jpg" alt=" фото Ольги Репиной" width="270" height="260"/>
             <div class="our-team-box">
             <h3 class="section-title-list ">Ольга Репина</h3>
             <p class="section-text card-content">Frontend Developer</p>
@@ -264,10 +257,7 @@
           </li>
           <li class="section-item our-team-content list">
             <img
-              src="./images/img 3.jpg"
-              alt="фото Николая Тарасова"
-              width="270"
-              height="260"
+              src="./images/img-team3.jpg" alt="фото Николая Тарасова" width="270" height="260"
             />
             <div class="our-team-box">
             <h3 class="section-title-list ">Николай Тарасов</h3>
@@ -305,10 +295,7 @@
           </li>
           <li class="section-item our-team-content  list">
             <img
-              src="./images/img 4.jpg"
-              alt=" фото Михаила Ермакова"
-              width="270"
-              height="260"
+              src="./images/img-team4.jpg" alt=" фото Михаила Ермакова" width="270" eheight="260"
             />
             <div class="our-team-box">
             <h3 class="section-title-list">Михаил Ермаков</h3>
@@ -352,7 +339,7 @@
         <h3 class="section-title">Постоянные клиенты</h3>
           <ul class="client-icon-list list">
             <li class="client-icon-list-item">
-              <a href="#"class="client-icon-link">
+              <a href="#" class="client-icon-link">
               <svg class="client-icon" width="41" height="47">             
                 <use href="./images/icons.svg#icon-client">
   
@@ -403,6 +390,7 @@
             </a>
             </li>
           </ul>
+          </div>
   
   
       </section>
@@ -431,8 +419,9 @@
     </div>
     <form class="footer-form">
      <p class="Subscribe">Подпишитесь на рассылку</p>
-     <label class="footer-form-label">
+     <label for="subscribe" class="footer-form-label">
         <input type="email" name="user-email" id="subscribe" placeholder="E-mail" class="user-email-input">
+      </label>
       <button type="submit" class="form-button"> Подписаться
         <svg class="footer-form-icon">
           <use href="./images/icons.svg#icon-send">
@@ -440,7 +429,6 @@
           </use>
         </svg>
     </button>
-  </label>
     </form>
     </div>
     
@@ -449,7 +437,7 @@
       <div class="modal-btn">
       <button type="button" class="close-btn" data-modal-close>
         <svg class="close-btn-svg" >
-          <use href="./images/icons.svg#icon-close"" >
+          <use href="./images/icons.svg#icon-close">
           </use>
         </svg>
       </button>
@@ -489,10 +477,10 @@
         <label for="Comment" class="modal-btn-label">
           Комментарий
         </label>
-        <textarea name="" id="
+        <textarea name="field-comment" id="
         Comment" placeholder="Введите текст" class="modal-form-textarea"></textarea>
         
-        <input type="checkbox" name="" id="modal-form-checkbox" class="agree-input visually-hidden">
+        <input type="checkbox" name="agree" id="modal-form-checkbox" class="agree-input visually-hidden">
         <label for="modal-form-checkbox" class="modal-btn-form-checkbox">Соглашаюсь с рассылкой и принимаю <a href="#" class="form-link">&nbsp;Условия договора</a></label>
            
       <div class="modal-form-button">
