@@ -476,6 +476,9 @@ body {
 .footer-form {
   margin-left: 93px;
 }
+.footer-subscribe {
+  display: flex;
+}
 
 .Subscribe {
   font-weight: bold;
@@ -506,10 +509,10 @@ body {
 
 .form-button {
   display: flex;
-  padding: 10px 29px;
-  margin-left: 12px;
   justify-content: center;
   align-items: center;
+  padding: 10px 29px;
+  margin-left: 12px;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -526,10 +529,6 @@ body {
   height: 24px;
   margin-left: 10px;
 }
-.footer-form-label {
-  display: flex;
-}
-
 /* Portfolio */
 .portfolio-list-item:not(:last-child) {
   margin-right: 8px;
