@@ -776,8 +776,7 @@ body {
   border-radius: 2px;
 }
 .agree-input:focus + .modal-btn-form-checkbox:before {
-  border: 2px solid var(--accent-color);
-  border-radius: 2px;
+  border-color: var(--accent-color);
 }
 .modal-btn-form-checkbox:before {
   display: block;
